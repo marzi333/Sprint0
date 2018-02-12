@@ -1,1 +1,37 @@
 
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git init
+Initialized empty Git repository in C:/Users/hp/Sprint0/.git/
+
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git remote add origin "https://github.com/marzi333/Sprint0.git"
+
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git pull origin master
+remote: Counting objects: 15, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 15 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (15/15), done.
+From https://github.com/marzi333/Sprint0
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git add 'First File'
+
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git add 'Second File'
+
+hp@hp-PC MINGW64 ~/Sprint0 (master)
+$ git add 'Third File'
+
+unstaging the file:
+$ git rm 'Second File' --cached
+
+staging it back:
+$ git add 'Second File'
+
+removing the file by right click delete and rolling it bk:
+$ git checkout 'Second File'
+
+

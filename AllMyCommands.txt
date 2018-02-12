@@ -47,6 +47,6 @@ $ git merge ReadMe
 
 l) Add & commit AllMyCommands.txt the file:
 $ git add AllMyCommands.txt
-$ git commit AllMyCommands.txt
+$ git commit AllMyCommands.txt -m "AllMyCommands ready to commit"
 
 
